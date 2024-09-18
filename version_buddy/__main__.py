@@ -1,3 +1,5 @@
-from run import cli
+import os
+import sys
+from .run import cli
 
 cli()

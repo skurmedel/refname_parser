@@ -86,7 +86,7 @@ as you lose these checks. For example, this would print an invalid SemVer:
 """
 
 from dataclasses import dataclass, field
-from typing import Any, Callable, Self, Tuple
+from typing import Any, Callable
 
 # A string will fail parsing if contains more code units than this. Python uses UCS-4 at most,
 # a maximum bytesize would be MAX_VERSION_STRING_CODEUNIT_COUNT * 4.
